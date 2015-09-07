@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <default>
+        <reference name="head">
+            <block type="ei_facebook_scripts/remarketing" template="ei/facebookscripts/remarketing.phtml" />
+        </reference>
+    </default>
+
+    <checkout_onepage_success>
+        <reference name="head">
+            <block type="ei_facebook_scripts/conversion" template="ei/facebookscripts/conversion.phtml" />
+        </reference>
+    </checkout_onepage_success>
+
+</layout>

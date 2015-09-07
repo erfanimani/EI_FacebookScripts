@@ -1,0 +1,5 @@
+EI_FacebookScripts.xml app/etc/modules/EI_FacebookScripts.xml
+FacebookScripts/ app/code/community/EI/FacebookScripts/
+facebookscripts.xml app/design/frontend/base/default/layout/ei/facebookscripts.xml
+conversion.phtml app/design/frontend/base/default/templates/ei/facebookscripts/conversion.phtml
+remarketing.phtml app/design/frontend/base/default/templates/ei/facebookscripts/remarketing.phtml

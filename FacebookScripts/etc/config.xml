@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <EI_FacebookScripts>
+            <version>0.1.0</version>
+        </EI_FacebookScripts>
+    </modules>
+    <global>
+        <helpers>
+            <ei_facebook_scripts>
+                <class>EI_FacebookScripts_Helper</class>
+            </ei_facebook_scripts>
+        </helpers>
+        <blocks>
+            <ei_facebook_scripts>
+                <class>EI_FacebookScripts_Block</class>
+            </ei_facebook_scripts>
+        </blocks>
+        <models>
+            <ei_facebook_scripts>
+                <class>EI_FacebookScripts_Model</class>
+            </ei_facebook_scripts>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ei_facebook_scripts>
+                    <file>ei/facebookscripts.xml</file>
+                </ei_facebook_scripts>
+            </updates>
+        </layout>
+    </frontend>
+</config>
