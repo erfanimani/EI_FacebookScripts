@@ -1,5 +1,5 @@
 {
-    "name": "ei/facebook_scripts",
+    "name": "erfanimani/ei_facebookscripts",
     "license": "GPL-3.0",
     "type": "magento-module",
     "description": "Adds Facebook custom audience and conversion tracking scripts",
